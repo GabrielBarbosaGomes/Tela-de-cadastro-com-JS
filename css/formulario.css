@@ -1,0 +1,31 @@
+section{
+    padding-top: 90px;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boxInputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.campoForm {
+    width: 240px;
+    height: 27px;
+    border-radius: 30px;
+    border: 1px solid rgb(188, 179, 179);
+}
+
+button{
+    width: 245px;
+    background-color: #07a;
+    height: 30px;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    border-radius: 6px;
+}

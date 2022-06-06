@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>js</title>
+        <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/formulario.css">
+        <link rel="stylesheet" href="css/tabela.css">
+        <script src="js/funcoes2-0.js" defer async></script>
+    </head>
+    <body>
+        <header class="cabecalho">
+            <div class="menu">
+                <div class="titulo">
+                    <h1>js</h1>
+                </div>
+                <div>
+                    <p><a>The zika</a></p>
+                </div>
+            </div>
+        </header>
+
+        <section class="padding-container">
+
+            <div id="cadastro">
+
+                <form class="form" id="form">
+                    <div class="boxInputs">
+                        <label id="identificador">ID</label>
+                        <input type="text" class="campoForm" id="ident" name="id" for="identificador">
+                    </div>
+
+                    <div class="boxInputs">
+                        <label id="name">Nome</label>
+                        <input type="text" class="campoForm" id="nick" name="nome" for="name">
+                    </div >
+
+                    <div class="boxInputs">
+                        <label id="login">Login</label>
+                        <input type="text" class="campoForm" id="usuario" name="login" for="login">
+                    </div>
+
+                    <div class="boxInputs">
+                        <label id="password">Senha</label>
+                        <input type="password" class="campoForm" id="senha" name="senha" for="password">
+                    </div>
+
+                    <div class="boxInputs">
+                        <label id="confiPassword">Confirme a senha</label>
+                        <input type="password" class="campoForm" id="confirmesenha" name="confirmaSenha" for="confiPassword">
+                    </div>
+
+                    <div>
+                        <input id= "add"  placeholder="Atualizar" type="submit">
+                    </div>
+                </form>
+                
+            </div>
+
+         </section>
+
+        <aside>
+            <div id="cadastrados">
+
+                <table class="tabela">
+                    <thead class="headTabela">
+
+                        <tr>
+                            <th>ID</th>
+                            <th>Nome</th>
+                            <th>Login</th>
+                        </tr>
+                        
+                    </thead>
+
+                    <tbody id="tabelaDeResgistro">
+
+                    </tbody>
+                </table>
+
+            </div>
+        </aside>
+
+    </body>
+
+</html>
