@@ -61,8 +61,6 @@ function criarTabela(cadastrados){
         elemento += "<tr><td>" + cadastrados[i].id + "</td>";
         elemento += "<td>" + cadastrados[i].nome + "</td>";
         elemento += "<td>" + cadastrados[i].login + "</td>";
-        elemento += "<td>" + cadastrados[i].senha + "</td>";
-        elemento += "<td>" + cadastrados[i].confirmSenha + "</td>";
         elemento += "<td><button onClick='editarUsuario(" + cadastrados[i].id + ")'>Editar usuario</button></td>";
         elemento += "<td><button onClick='excluirUsuario(" + cadastrados[i].id + ")'>excluir usuario</button></td>";
     }
